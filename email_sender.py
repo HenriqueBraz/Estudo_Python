@@ -52,7 +52,7 @@ try:
     smtpObj.ehlo()
     if tls:
         smtpObj.starttls()
-    smtpObj.login('testeblisk999@gmail.com', '123qwe.1')
+    smtpObj.login('testeblisk999@gmail.com', 'xxxxxxx')
     msg = 'Subject:' + subject + ' \n' + menssagem
     print(smtpObj.sendmail(from_adrr,to_adrr,msg.encode('utf-8')))
     print(smtpObj.quit())
