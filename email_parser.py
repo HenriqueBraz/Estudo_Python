@@ -7,7 +7,7 @@ import pyzmail
 
 server_name = 'gmail'
 type_search = False   #'True' to search using Gmail’s X-GM-RAW attribute. http://nostarch.com/automatestuff/
-password = '123qwe.1'
+password = 'XXXXXX'
 server_login = 'testeblisk999@gmail.com'
 messages = {}
 message = ''
