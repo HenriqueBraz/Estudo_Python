@@ -59,7 +59,7 @@ try:
     smtpObj.ehlo()
     if tls:
         smtpObj.starttls()
-    smtpObj.login('testeblisk999@gmail.com', '123qwe.1')
+    smtpObj.login('testeblisk999@gmail.com', 'XXXXX')
     text = msg.as_string()
     smtpObj.sendmail(fromaddr, toaddr, text)
     print(smtpObj.quit())
